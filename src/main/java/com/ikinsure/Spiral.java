@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Spiral {
 
-    public static final int RESOLUTION = 401;
+    public static final int RESOLUTION = 301;
     public static final int PIXEL_SIZE = 2;
     public static final int FRAME_SIZE = RESOLUTION * PIXEL_SIZE;
     public static final Color PRIME_COLOR = Color.BLUE;
