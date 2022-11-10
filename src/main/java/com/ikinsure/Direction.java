@@ -14,4 +14,20 @@ public enum Direction {
         this.x = x;
         this.y = y;
     }
+
+    public Direction next() {
+        if (RIGHT.equals(this)) {
+            return UP;
+        }
+        if (UP.equals(this)) {
+            return LEFT;
+        }
+        if (LEFT.equals(this)) {
+            return DOWN;
+        }
+        if (DOWN.equals(this)) {
+            return RIGHT;
+        }
+        throw new Error("Unexpected state");
+    }
 }
