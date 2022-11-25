@@ -19,7 +19,7 @@ public class Spiral {
             frame.setTitle("Ulam spiral");
             frame.setVisible(true);
             frame.pack();
-            frame.runCalculation();
+            frame.runSpiralCalculation();
         });
     }
 
